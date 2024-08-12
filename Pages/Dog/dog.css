@@ -1,0 +1,33 @@
+main {
+  padding-bottom: 100px;
+}
+
+.greyBox {
+  padding: 20px;
+}
+
+.breedSection {
+  margin: 20px 0;
+}
+
+.formSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#imageGallery img {
+  max-width: 250px;
+  height: 250px;
+  margin: 5px;
+  border: 1px solid black;
+  border-radius: 15px;
+  transition: 1s;
+}
+
+#imageGallery img:hover {
+  max-width: 250px;
+  height: 250px;
+  margin: 5px;
+  transition: 1s;
+}
